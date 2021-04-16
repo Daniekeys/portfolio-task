@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+*{
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+
+}
+.mr{
+ margin-right: 10px;
+ font-size: 1.5rem;
+}
+
+.big-container{
+ display: grid;
+ width: 90%;
+ min-height: 100vh;
+ grid-template-rows: 1fr 7fr;
+ padding-top: 5rem;
+ 
+}
+.header{
+ display: grid;
+ width: 100%;
+ height: 400px;
+overflow: hidden;
+}
+.first-slant{
+ width: 1500px;
+ height: 400px;
+ transform: rotate(15deg);
+ background-color: rgb(75, 12, 248);
+ margin-top: -150px;
+ z-index: -1;
+}
+.second-slant{
+width: 800px;
+height: 300px;
+ transform: rotate(-20deg);
+ background-color: cornflowerblue;
+ z-index: -2;
+ margin-top: -330px;
+ margin-left: -200px;
+}
+.header-img{
+ padding: 2rem;
+}
+
+.img{
+ height: auto;
+ width: 200px;
+ position: absolute;
+ top: 100px;
+ left: 120px;
+ z-index: 100;
+}
+.header-text{
+ width: 400px;
+ height: auto;
+ padding: 1rem 1.5rem;
+ position: absolute;
+ top: 100px;
+ right: 220px;
+ z-index: 100;
+}
+.text-white{
+ color: white;
+ font-weight: 500;
+ margin: 0;
+}
+.h-text{
+ font-size: 3rem;
+}
+.show{
+ font-weight: 300;
+}
+/* MIDDLE SECTION */
+.middle-section{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ grid-gap: 20px;
+
+}
+.left{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+.about{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 10px;
+
+}
+.base-title{
+ display: flex;
+ line-height: 20px;
+ 
+}
+.base-title h1{
+ 
+ /* margin-left: 10px; */
+ line-height: 20px;
+ font-size: 1.5rem;
+}
+.base-title .fas{
+ /* margin: 10px 10px 0 0 ; */
+line-height: 20px;
+}
+.underline{
+ background-color: black;
+ height: 3px;
+ margin-top: 10px;
+}
+.abt-item{
+ font-weight: 600;
+ 
+}
+.skill-item{
+ font-size: 1.2rem;
+ font-weight: 500;
+ margin-bottom: 1rem;
+}
+.bar{
+ width: 100%;
+ height: 10px;
+ background-color: whitesmoke;
+ border-radius: 5px;
+ 
+
+}
+.full-bar{
+ width: 100%;
+ height: 10px;
+ background-color: rgb(27, 99, 233);
+ border-radius: 5px;
+}
+.half-bar{
+ width: 90%;
+  height: 10px;
+ background-color: rgb(27, 99, 233);
+ border-radius: 5px;
+}
+.hobbies{
+ margin-top: 1rem;
+
+}
+.hobbies-item{
+ width: fit-content;
+ height: fit-content;
+ padding: 0.5rem;
+background-color: rgb(27, 99, 233);
+ margin-top: 10px;
+ border-radius: 10px;
+ color: white;
+
+}
+.social{
+ margin-top: 2rem;
+}
+.social-icon{
+ color: rgb(27, 99, 233);
+ font-size: 1.2rem;
+}
+.social-item{
+ margin-top: 10px;
+}
+
+.right{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+
+}
+.profile-text{
+ font-size: 1.3rem;
+}
+
+.work{
+ margin-top: 1rem;
+
+}
+
+.split{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ grid-gap: 10px;
+}
+.wk-text{
+ font-weight: 500;
+}
+.address{
+ color: rgb(27, 99, 233);
+ font-weight: 500;
+}
+.split h2{
+ margin: 1rem 0;
+}
+.bop{
+ padding-top: 2rem;
+}
+.edu-split{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 1rem;
+ width: 100%;
+}
+
+
